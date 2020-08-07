@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fraction Cricket</string>
+    <string name="play_button_name">Play</string>
+    <string name="ball_btn">ball</string>
+    <string name ="result">Score</string>
+    <string name="wickets">Wickets</string>
+</resources>
