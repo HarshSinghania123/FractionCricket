@@ -1,4 +1,4 @@
-package com.example.fractioncricket;
+package in.focusminds.fractioncricket;
 
 import android.content.Intent;
 import android.os.Bundle;

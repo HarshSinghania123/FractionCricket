@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fractioncricket">
+    package="in.focusminds.fractioncricket">
 
     <application
         android:allowBackup="true"
@@ -10,9 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FocusMindsAbout"></activity>
-        <activity android:name=".Mathlove" />
-        <activity android:name=".InitialStartScreen">
+        <activity android:name="in.focusminds.fractioncricket.FocusMindsAbout"></activity>
+        <activity android:name="in.focusminds.fractioncricket.Mathlove" />
+        <activity android:name="in.focusminds.fractioncricket.InitialStartScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,13 +20,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".GameModeSelection"
+            android:name="in.focusminds.fractioncricket.GameModeSelection"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".RollScreen"
+            android:name="in.focusminds.fractioncricket.RollScreen"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name="in.focusminds.fractioncricket.MainActivity"
             android:screenOrientation="portrait" />
 
         <meta-data

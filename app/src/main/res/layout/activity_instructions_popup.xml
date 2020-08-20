@@ -7,12 +7,12 @@
     android:layout_height="match_parent">
 
     <ScrollView
-        android:layout_width="385dp"
-        android:layout_height="600dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="65dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="66dp"
+        android:layout_width="371dp"
+        android:layout_height="550dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="131dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,7 +83,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="3.The Goal is the view the problem and find the correct fraction."
+                android:text="3.The Goal is to view the problem and find the fraction of the colored portion"
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -95,7 +95,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
-                android:text="4. After Selecting the mode click on the BALL to load the image"
+                android:text="4. After Selecting the mode, click on the BALL to load the image"
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -107,7 +107,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="5. An image will be loaded. Solve the given problem "
+                android:text="5. An image will be loaded. Find the fraction of the colored portion in the image "
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -119,7 +119,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
-                android:text="6. Enter the answer in the below boxes "
+                android:text="6. Enter the answer in the boxes below."
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -131,7 +131,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="7. If the answer is 1/2, enter 1 in the first text box and 2 in the second box"
+                android:text="7. Enter the numerator in the first box and the denominator in the second box."
+                android:textColor="#FFFFFF" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="8. For Easy Level, enter the Fractions as such or in the simplest form."
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -143,7 +155,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
-                android:text="8. Click the BAT to hit the answer."
+                android:text="9. For the Hard level, Fraction should be entered only in the simplest form."
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -155,7 +167,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text='9. If the answer is correct, a score of "6" will be calculated.'
+                android:text='10. Click on the bat to check the answer. If the answer is correct, a score of "6" will be calculated.'
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -167,7 +179,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
-                android:text="10. If the answer is wrong a wicket will be lost"
+                android:text="11. If the answer is wrong a wicket will be lost"
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -179,7 +191,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="11. A player can lose upto 5 wickets which means you can enter wrong answer 5 times"
+                android:text="12. A player can lose upto 5 wickets which means you can enter wrong answer 5 times"
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -191,7 +203,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
-                android:text="12. Once 5 wickets are down the game is over and you are out"
+                android:text="13. Once 5 wickets are down the game is over and you are out"
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -203,7 +215,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="13. If you manage to play till the last ball then you are the winner. YAY"
+                android:text="14. If you manage to play till the last ball then you are the winner. YAY"
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -215,7 +227,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
-                android:text="14. Click on the exit button to exit the game anytime, the latest score will be displayed"
+                android:text="15. Click on the exit button to exit the game anytime, the latest score will be displayed"
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -227,7 +239,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="15. Show off your skills and enjoy the game..."
+                android:text="16. Show off your skills and enjoy the game..."
                 android:textColor="#FFFFFF" />
         </LinearLayout>
     </ScrollView>

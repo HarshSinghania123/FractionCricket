@@ -1,14 +1,15 @@
-package com.example.fractioncricket;
+package in.focusminds.fractioncricket;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Mathlove extends AppCompatActivity {
+
+public class FocusMindsAbout extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mathlove);
+        setContentView(R.layout.activity_focus_minds_about);
     }
 }

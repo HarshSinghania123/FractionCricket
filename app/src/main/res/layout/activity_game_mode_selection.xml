@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_1"
-    tools:context=".GameModeSelection">
+    tools:context="in.focusminds.fractioncricket.GameModeSelection">
 
     <Button
         android:id="@+id/button_hard"

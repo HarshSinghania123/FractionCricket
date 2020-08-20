@@ -1,4 +1,4 @@
-package com.example.fractioncricket;
+package in.focusminds.fractioncricket;
 
 import org.junit.Test;
 

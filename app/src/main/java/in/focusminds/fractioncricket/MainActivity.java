@@ -1,4 +1,4 @@
-package com.example.fractioncricket;
+package in.focusminds.fractioncricket;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -14,6 +14,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 
 public class MainActivity extends AppCompatActivity {
 

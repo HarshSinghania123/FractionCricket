@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ground_img"
-    tools:context=".RollScreen">
+    tools:context="in.focusminds.fractioncricket.RollScreen">
 
     <ImageButton
         android:id="@+id/imageButton_ball"
