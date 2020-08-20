@@ -1,7 +1,15 @@
 <resources>
     <string name="app_name">Fraction Cricket</string>
-    <string name="play_button_name">Play</string>
+    <string name="play_button_name">Play ➤</string>
     <string name="ball_btn">ball</string>
-    <string name ="result">Score</string>
+    <string name="result">Score</string>
     <string name="wickets">Wickets</string>
+    <string name="mode_hard">Hard</string>
+    <string name="mode_easy">Easy</string>
+    <string name="about_focus">Focus Minds</string>
+    <string name="focusMindsDetails"><h1>Developed by Focus Minds Team.\n</h1>
+    <h1> Visit : www.focusminds.in</h1></string>
+    <string name="about_mathhlove">Math Love</string>
+    <string name="mathloveDetails"><h1>For More Details\n</h1>
+    <h1> Visit :https://www.facebook.com/passionformath/</h1></string>
 </resources>
